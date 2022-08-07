@@ -1,0 +1,4 @@
+{
+    "mongoURL" : "mongodb://admin:Vuthao1998@mongodb_qltbyt:27017/?authSource=admin&readPreference=primary&appname=MongoDB%20Compass&ssl=false",
+    "jwtSecret": "mysecrettoken"
+}

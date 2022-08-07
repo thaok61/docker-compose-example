@@ -1,0 +1,38 @@
+version: "3.4"
+
+services:
+  backend:
+    image: "thao/qltbyt-backend"
+    container_name: backend_qltbyt
+    ports: 
+      - 5001:5001
+    networks: 
+      - esnet
+    depends_on: 
+      - mongodb_qltbyt
+  mongodb_qltbyt:
+    image: "mongo:latest"
+    container_name: mongodb_qltbyt
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=admin
+      - MONGO_INITDB_ROOT_PASSWORD=Vuthao1998
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./.docker/mongodb/initMongo/:/docker-entrypoint-initdb.d/
+    command: mongod
+    networks: 
+      - esnet
+  frontend:
+    image: "thao/qltbyt-frontend"
+    container_name: frontend_qltbyt
+    ports: 
+      - 8080:8080
+    networks: 
+      - esnet
+    depends_on: 
+      - backend
+networks:
+  esnet:
+    driver: bridge
+

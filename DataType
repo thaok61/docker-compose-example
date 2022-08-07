@@ -1,0 +1,117 @@
+User: 
+    name: {
+        type: String,
+        required: true,
+    },
+    email: {
+        type: String,
+        required: true,
+        unique: true
+    },
+    password: {
+        type: String,
+        required: true
+    },
+    role: {
+        type: String,
+        default: "user"
+    },
+    date: {
+        type: Date,
+        default: Date.now
+    },
+    department: {
+
+    }
+Department:
+    name: {
+
+    },
+    address: {
+
+    }
+
+Provider:
+    name: {
+
+    },
+    address: {
+
+    },
+    mobile: {
+
+    },
+    email: {
+
+    }
+Device: 
+    name: {
+
+    },
+    model: {
+
+    },
+    serial: {
+
+    },
+    provider: {
+
+    },
+    user: {
+
+    },
+    country: {
+
+    },
+    status: {
+
+    },
+    price: {
+
+    },
+Maintain:
+    user: {
+
+    },
+    device: {
+
+    },
+    previousStatus: {
+
+    },
+    startTime: {
+
+    },
+    endTime: {
+
+    },
+    cost: {
+
+    }
+    AfterStatus: {
+
+    }
+User:
+    addUser Public
+    editUser Admin
+    deleteUser Admin
+    getUser User, Admin
+Department:
+    addDepartment: Public
+    getDepartment: Admin
+    DeleteDepartment: Admin
+    editDepartment: Admin
+Provider:
+    addProvicer: User,Admin
+    getProvider: User,Admin
+    DeleteProvider: User, Admin
+    editProvider: User, Admin
+Device:
+    addDevice:User,Admin
+    getDevice:User, Admin
+    deleteDevice: User, Admin
+    editDevice: User, Admin
+Maintain:
+    addMaintain:User
+    editMaintain:User
+    getMaintain: User,Admin

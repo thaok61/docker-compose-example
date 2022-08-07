@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e73d4427.chunk.css",
+    "main.js": "/static/js/main.f0d14c77.chunk.js",
+    "main.js.map": "/static/js/main.f0d14c77.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5d96f3e5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5d96f3e5.js.map",
+    "static/css/2.bdf43a5d.chunk.css": "/static/css/2.bdf43a5d.chunk.css",
+    "static/js/2.1d650374.chunk.js": "/static/js/2.1d650374.chunk.js",
+    "static/js/2.1d650374.chunk.js.map": "/static/js/2.1d650374.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.3413ef6fe81ab51bf365c3abffef1379.js": "/precache-manifest.3413ef6fe81ab51bf365c3abffef1379.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.bdf43a5d.chunk.css.map": "/static/css/2.bdf43a5d.chunk.css.map",
+    "static/css/main.e73d4427.chunk.css.map": "/static/css/main.e73d4427.chunk.css.map",
+    "static/js/2.1d650374.chunk.js.LICENSE.txt": "/static/js/2.1d650374.chunk.js.LICENSE.txt",
+    "static/media/styles.css": "/static/media/gaxon.b1a63de8.svg",
+    "static/media/bg-login.jpg": "/static/media/bg-login.a8580f76.jpg",
+    "static/media/notifications.css": "/static/media/notification.c0d3c94c.eot",
+    "static/media/paypal.png": "/static/media/paypal.685da7b0.png",
+    "static/media/sprite-flags-24x24.css": "/static/media/sprite-flags-24x24.7ed12ca4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5d96f3e5.js",
+    "static/css/2.bdf43a5d.chunk.css",
+    "static/js/2.1d650374.chunk.js",
+    "static/css/main.e73d4427.chunk.css",
+    "static/js/main.f0d14c77.chunk.js"
+  ]
+}
